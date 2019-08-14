@@ -1,4 +1,11 @@
 # -*- coding: utf-8 -*-
+# Natural Language Toolkit: Word Sense Disambiguation Algorithms
+#
+# Authors: Liling Tan <alvations@gmail.com>,
+#          Dmitrijs Milajevs <dimazest@gmail.com>
+#
+# Copyright (C) 2001-2019 NLTK Project
+# URL: <http://nltk.org/>
 from pythainlp.corpus import wordnet
 
 def lesk(context_sentence, ambiguous_word, pos=None, synsets=None):
