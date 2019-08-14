@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-# Natural Language Toolkit: Word Sense Disambiguation Algorithms
-#
-# Authors: Liling Tan <alvations@gmail.com>,
-#          Dmitrijs Milajevs <dimazest@gmail.com>
-#
-# Copyright (C) 2001-2019 NLTK Project
-# URL: <http://nltk.org/>
 from pythainlp.corpus import wordnet
 
 def lesk(context_sentence, ambiguous_word, pos=None, synsets=None):
@@ -13,6 +6,7 @@ def lesk(context_sentence, ambiguous_word, pos=None, synsets=None):
     The original Lesk algorithm (1986) [1]
 
     Code From NLTK (https://www.nltk.org/_modules/nltk/wsd.html)
+    Authors: Liling Tan <alvations@gmail.com>, Dmitrijs Milajevs <dimazest@gmail.com>
 
     Return a synset for an ambiguous word in a context.
 
